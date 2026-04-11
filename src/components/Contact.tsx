@@ -2,11 +2,11 @@ import { MapPin, Phone, Mail, Send } from 'lucide-react';
 
 export default function Contact() {
   return (
-    <section className="py-24 bg-[#020617] relative" id="contact">
+    <section className="py-24 bg-[#050B14] relative" id="contact">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16">
           <div>
-            <h2 className="text-3xl md:text-5xl font-display font-bold mb-6">Get in <span className="text-gradient-gold">Touch</span></h2>
+            <h2 className="text-3xl md:text-5xl font-display font-bold mb-6 italic tracking-tighter uppercase">Get in <span className="text-gradient-gold">Touch</span></h2>
             <p className="text-slate-400 mb-12">Ready to upgrade your IT infrastructure? Reach out to our experts for a consultation and quote.</p>
             
             <div className="space-y-8">

@@ -14,11 +14,15 @@ export default function Navbar() {
   return (
     <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'advanced-glass py-3' : 'bg-transparent py-5'}`}>
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 bg-white flex items-center justify-center clipped-corner">
-            <Server className="w-5 h-5 text-[#050B14]" />
+        <div className="flex items-center gap-4">
+          <div className="relative w-14 h-14 flex items-center justify-center">
+             {/* Official Logo Integration */}
+             <img src="/src/assets/logo.png" alt="Transoft Logo" className="w-full h-full object-contain" />
           </div>
-          <span className="text-2xl font-rubik font-bold tracking-tight text-white lowercase">transoft</span>
+          <div className="flex flex-col">
+            <span className="text-xl font-display font-black tracking-tighter text-white leading-none">TRANSOFT</span>
+            <span className="text-[10px] font-mono font-bold tracking-[0.3em] text-[#D4AF37] uppercase leading-none mt-1">Infotech</span>
+          </div>
         </div>
 
         <nav className="hidden md:flex items-center gap-8">

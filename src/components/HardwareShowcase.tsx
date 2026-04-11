@@ -10,16 +10,16 @@ const products = [
 
 export default function HardwareShowcase() {
   return (
-    <section className="py-24 bg-[#020617] relative overflow-hidden" id="hardware">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#D4AF37]/5 via-[#020617] to-[#020617]"></div>
+    <section className="py-24 bg-[#050B14] relative overflow-hidden" id="hardware">
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#D4AF37]/5 via-[#050B14] to-[#050B14]"></div>
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
           <div>
-            <h2 className="text-3xl md:text-5xl font-display font-bold mb-4">Hardware <span className="text-gradient-gold">Showcase</span></h2>
+            <h2 className="text-3xl md:text-5xl font-display font-bold mb-4">Hardware <span className="text-gradient-gold uppercase tracking-tighter">Showcase</span></h2>
             <p className="text-slate-400 max-w-xl">Premium IT hardware from global leading brands to power your workforce.</p>
           </div>
           <button className="flex items-center gap-2 text-[#D4AF37] font-medium hover:text-[#F3E5AB] transition-colors group">
-            View All Products <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            View All Products <ArrowRight className="w-4 h-4 group-hover:translate-x-group-hover:translate-x-1 transition-transform" />
           </button>
         </div>
 

@@ -45,7 +45,7 @@ export default function Infrastructure() {
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <h2 className="text-3xl md:text-5xl font-display font-bold mb-6">Robust <span className="text-gradient-blue">Networking</span> & Infrastructure</h2>
+            <h2 className="text-3xl md:text-5xl font-display font-bold mb-6">Robust <span className="text-gradient-gold uppercase tracking-tighter">Networking</span> & Infrastructure</h2>
             <p className="text-slate-400 mb-8 text-lg leading-relaxed">
               We design, deploy, and manage scalable network infrastructures that form the backbone of modern enterprises. From complex structured cabling to secure wireless environments.
             </p>
@@ -60,24 +60,24 @@ export default function Infrastructure() {
                   transition={{ delay: i * 0.1 }}
                   className="flex items-center gap-4 glass-panel p-4 rounded-lg border-l-2 border-l-[#D4AF37]"
                 >
-                  <div className="text-blue-400">{f.icon}</div>
+                  <div className="text-[#D4AF37]">{f.icon}</div>
                   <span className="font-medium text-white">{f.title}</span>
                 </motion.div>
               ))}
             </div>
           </div>
 
-          <div className="relative h-[500px] rounded-2xl glass-panel overflow-hidden flex items-center justify-center border border-blue-500/20 shadow-[0_0_50px_rgba(59,130,246,0.1)]">
+          <div className="relative h-[500px] rounded-2xl glass-panel overflow-hidden flex items-center justify-center border border-[#D4AF37]/10 shadow-[0_0_50px_rgba(212,175,55,0.05)]">
              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=800')] opacity-20 bg-cover bg-center mix-blend-overlay"></div>
              
              {/* Abstract 3D Network Nodes */}
              <div className="relative w-full h-full perspective-1000">
                 <motion.div 
-                  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full border border-blue-400/50 flex items-center justify-center shadow-[0_0_30px_rgba(59,130,246,0.3)]"
+                  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full border border-[#D4AF37]/30 flex items-center justify-center shadow-[0_0_30px_rgba(212,175,55,0.1)]"
                   animate={{ rotateZ: 360, rotateX: 20 }}
                   transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
                 >
-                  <Database className="w-10 h-10 text-blue-400" />
+                  <Database className="w-10 h-10 text-[#D4AF37]" />
                 </motion.div>
 
                 {/* Orbiting Nodes */}

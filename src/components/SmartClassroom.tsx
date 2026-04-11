@@ -30,7 +30,7 @@ export default function SmartClassroom() {
                 <div className="text-xs font-bold text-white">Interactive Board Active</div>
               </div>
               <div className="absolute bottom-10 right-10 glass-panel p-4 rounded-lg translate-z-12 animate-bounce" style={{ animationDuration: '4s', animationDelay: '1s' }}>
-                <Video className="w-8 h-8 text-blue-400 mb-2" />
+                <Video className="w-8 h-8 text-[#D4AF37] mb-2" />
                 <div className="text-xs font-bold text-white">4K PTZ Camera Sync</div>
               </div>
             </motion.div>

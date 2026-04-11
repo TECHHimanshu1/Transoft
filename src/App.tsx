@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import PremiumHero from './components/PremiumHero';
 import Services from './components/Services';
 import HardwareShowcase from './components/HardwareShowcase';
 import Infrastructure from './components/Infrastructure';
@@ -16,7 +16,7 @@ export default function App() {
     <div className="min-h-screen bg-[#050B14] text-slate-200 selection:bg-[#D4AF37] selection:text-[#050B14]">
       <Navbar />
       <main>
-        <Hero />
+        <PremiumHero />
         <Services />
         <HardwareShowcase />
         <Infrastructure />
